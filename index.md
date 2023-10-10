@@ -10,3 +10,7 @@ After using that command I ran cd using the file which chance the working direct
 
 LS
 From starting the ls command with no arguments nothing appeared that a list of what was in the path
+![Image](ls without a command.png)
+
+Then using the ecommand with a path it listed off everything in the path that I used.
+![Image](LS with a dir.png)
