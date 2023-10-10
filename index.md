@@ -14,3 +14,5 @@ From starting the ls command with no arguments nothing appeared that a list of w
 
 Then using the ecommand with a path it listed off everything in the path that I used.
 ![Image](LS with a dir.png)
+
+After using the Ls command with a file, it would read out a error message 
