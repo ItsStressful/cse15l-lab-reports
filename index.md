@@ -15,4 +15,11 @@ From starting the ls command with no arguments nothing appeared that a list of w
 Then using the ecommand with a path it listed off everything in the path that I used.
 ![Image](LS with a dir.png)
 
-After using the Ls command with a file, it would read out a error message 
+After using the Ls command with a file, it would read out the file back to me
+![Image](LS a file.png)
+
+Cat
+From starting the cat command with no arguments nothing would pop-up because there was no file to read out
+![Image](Cat without a command.png)
+
+Then after using the cat command with a directory 
