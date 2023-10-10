@@ -26,4 +26,4 @@ Then after using the cat command with a directory It would give me an error stat
 ![Image](Cat in directory.png)
 
 Then using cat with a file it would read out what was in the file
-![Image]
+![Image](Cat in file.png)
