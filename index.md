@@ -22,4 +22,8 @@ Cat
 From starting the cat command with no arguments nothing would pop-up because there was no file to read out
 ![Image](Cat without a command.png)
 
-Then after using the cat command with a directory 
+Then after using the cat command with a directory It would give me an error stating that the directory was a directory
+![Image](Cat in directory.png)
+
+Then using cat with a file it would read out what was in the file
+![Image]
