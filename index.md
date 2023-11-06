@@ -4,8 +4,9 @@ I used the same methods from class that were used during the labs (add numbers U
 Next, I tested by using the example that was given to me in the lab report which was "/add-message?s=Hello" in which it printed the statement "Hello" correctly
 
 ![Image](Screenshot 2023-11-05 at 4.54.23 PM.png)
-![Image](Screenshot 2023-11-05 at 4.54.27 PM.png)
-\n
+![Image](Screenshot 2023-11-05 at 4.54.27 PM.png)\n
+
 It grabs the string at the end of the ?s= which is "Hello" and adds it to "stringer" in which I tell it to return "stringer" to the site giving the response hello.
+
 ![Image](Screenshot 2023-11-05 at 4.54.40 PM.png)
 ![Image](Screenshot 2023-11-05 at 4.54.44 PM.png)
