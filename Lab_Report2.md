@@ -17,6 +17,7 @@ It will use the same code to run this as well.
 
 ## Part 2
 Using ls on the command lines
+I tried to run ssh on my computer multiple times and it didn't work and I even changed the password but still nothing.
 
 ## Part 3
 I've learned how to create a server and display what I would want using my code. I also learned how to correctly use some of my skills from my other courses and apply my learnings in this course. I also know how to work the terminal in a wider scale in order to locate files and make sure I know my location at all times.
