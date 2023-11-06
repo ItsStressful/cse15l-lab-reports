@@ -4,3 +4,4 @@ I used the same methods from class that were used during the labs (add numbers U
 Next, I tested by using the example that was given to me in the lab report which was "/add-message?s=Hello" in which it printed the statement "Hello" correctly
 
 ![Image](Screenshot 2023-11-05 at 4.54.23 PM.png)
+![Image](Screenshot 2023-11-05 at 4.54.27 PM.png)
