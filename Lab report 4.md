@@ -6,11 +6,13 @@
 
 ## Step:2
 **Then I logged in using ssh using `<up><up><up><enter` in order to find it 4 up in my search history:**
-n\ ![Image](Screenshot 2023-11-19 at 7.34.30 PM.png)
+
+![Image](Screenshot 2023-11-19 at 7.34.30 PM.png)
 
 ## Step:3
 **Then I typed `Git clone` and followed with `/+v/`:**
-n\ ![Image](Screenshot 2023-11-20 at 2.12.09 PM.png)
+
+![Image](Screenshot 2023-11-20 at 2.12.09 PM.png)
 
 
 
