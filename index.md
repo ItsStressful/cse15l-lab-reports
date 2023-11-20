@@ -98,3 +98,5 @@ produced, meaning that there are no files or directories in technical/plos that 
 *For each of the command shown, I used ChatGPT. Below is what I entered into ChatGPT, and the output that it produced*
 
 ![Image](6AB3BB96-9E25-4414-A07C-C26832A273FF.jpeg)
+
+The command is useful for locating Specific Files, Recursive Search, and Combining with Other Commands.
