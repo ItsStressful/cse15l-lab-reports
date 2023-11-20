@@ -19,7 +19,7 @@ public void testReverseInPlace() {
   assertArrayEquals(new int[]{ 3 }, input1);
 }
 
-The symptom: 
+The symptom:![Image](Screenshot 2023-11-19 at 6.38.26 PM.png)
 Code before:
 
 static void reverseInPlace(int[] arr) {
