@@ -1,11 +1,11 @@
 # Vim
 
 ## Step:1
-**At the beginning I started at my home directory:**
+**At the beginning I started at my home directory:** /n
 ![Image](Screenshot 2023-11-19 at 7.31.25 PM.png)
 
 ## Step:2
-**Then I logged in using the ssh using `<up><up><up><enter` in order to find it 4 up in my search history history:**
+**Then I logged in using ssh using `<up><up><up><enter` in order to find it 4 up in my search history history:**
 ![Image](Screenshot 2023-11-19 at 7.34.30 PM.png)
 
 ## Step:3
