@@ -1,5 +1,47 @@
 # Lab Report 3
 
+## Part 1: Bugs
+
+Failed:
+@Test
+public void testReverseInPlace2(){
+  int[] input={1,2,3,4};
+  ArrayExamples.reverseInPlace(input);
+  assertArrayEquals(new int[]{4,3,2,1}, input);
+}
+
+The expected output for the array was {4,3,2,1} but instead, it was changed to the array {4,3,3,4}.
+
+Didn't Fail:
+@Test
+public void testReverseInPlace() {
+  int[] input1 = { 3 };
+  ArrayExamples.reverseInPlace(input1);
+  assertArrayEquals(new int[]{ 3 }, input1);
+}
+
+The symptom:![Image](Screenshot 2023-11-19 at 6.38.26 PM.png)
+Code before:
+
+static void reverseInPlace(int[] arr) {
+  for(int i = 0; i < arr.length; i += 1) {
+  arr[i] = arr[arr.length - i - 1];
+  }
+}
+Code after: 
+
+static void reverseInPlace(int[] arr) {
+  for(int i = 0; i < arr.length/2; i += 1) {
+    int temp=arr[i];
+    arr[i] = arr[arr.length - i - 1];
+    arr[arr.length-i-1]=temp;
+  }
+}
+
+The reason it wasn't working was that it wasn't being swapped but rather replaced. This is the reason it loses the value halfway through the array. The second reason was the for-loop traversed the entire list. Instead, you can grab the beginning of the array and then flip it to the other half.
+
+##Part 2:
+
 You can employ the find command in various ways to locate files or directories based on specific criteria. Here are some practical methods for using this command.
 
 
@@ -131,8 +173,14 @@ $ find technical/plos -mtime +30
 
 
 
-The displayed command is exploring the "technical/plos" directory in search of files and directories modified more than 30 days ago. The "+" symbol preceding the number 30 indicates the search for items altered more than the specified number of days in the past. The absence of output signifies that there are no files or directories in "technical/plos" that meet this criterion.
+The command shown is searching through technical/plos to find files and directories that
+have been modified greater than 30 days ago. The “+” in front of 30 is used to find files and
+directories that have been modified greater than the specified number of days. No output was
+produced, meaning that there are no files or directories in technical/plos that have been modified greater than 30 days ago.
 
-I used ChatGPT.
+*For each of the command shown, I used ChatGPT. Below is what I entered into ChatGPT, and the output that it produced*
+
 
 ![Image](6AB3BB96-9E25-4414-A07C-C26832A273FF.jpeg)
+
+The command is useful for locating Specific Files, Recursive Search, and Combining with Other Commands.
