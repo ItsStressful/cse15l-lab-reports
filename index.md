@@ -51,6 +51,11 @@ $ find technical/plos -mtime +30
 
 The displayed command is exploring the "technical/plos" directory in search of files and directories modified more than 30 days ago. The "+" symbol preceding the number 30 indicates the search for items altered more than the specified number of days in the past. The absence of output signifies that there are no files or directories in "technical/plos" that meet this criterion.
 
-I used ChatGPT.
+The command shown is searching through technical/plos to find files and directories that
+have been modified greater than 30 days ago. The “+” in front of 30 is used to find files and
+directories that have been modified greater than the specified number of days. No output was
+produced, meaning that there are no files or directories in technical/plos that have been modified greater than 30 days ago.
+
+*For each of the command shown, I used ChatGPT. Below is what I entered into ChatGPT, and the output that it produced*
 
 ![Image](6AB3BB96-9E25-4414-A07C-C26832A273FF.jpeg)
