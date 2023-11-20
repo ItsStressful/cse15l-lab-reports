@@ -1,4 +1,4 @@
-#Vim
+# Vim
 **At the beginning I started at my home directory:**
 ![Image](Screenshot 2023-11-19 at 7.31.25 PM.png)
 
