@@ -1,4 +1,43 @@
 # Lab Report 3
+## Bugs
+
+Failed:
+@Test
+public void testReverseInPlace2(){
+  int[] input={1,2,3,4};
+  ArrayExamples.reverseInPlace(input);
+  assertArrayEquals(new int[]{4,3,2,1}, input);
+}
+
+The expected output for the array was {4,3,2,1} but instead, it was changed to the array {4,3,3,4}.
+
+Didn't Fail:
+@Test
+public void testReverseInPlace() {
+  int[] input1 = { 3 };
+  ArrayExamples.reverseInPlace(input1);
+  assertArrayEquals(new int[]{ 3 }, input1);
+}
+
+The symptom: 
+Code before:
+
+static void reverseInPlace(int[] arr) {
+  for(int i = 0; i < arr.length; i += 1) {
+  arr[i] = arr[arr.length - i - 1];
+  }
+}
+Code after: 
+
+static void reverseInPlace(int[] arr) {
+  for(int i = 0; i < arr.length/2; i += 1) {
+    int temp=arr[i];
+    arr[i] = arr[arr.length - i - 1];
+    arr[arr.length-i-1]=temp;
+  }
+}
+
+The reason it wasn't working was that it wasn't being swapped but rather replaced. This is the reason it loses the value halfway through the array. The second reason was the for-loop traversed the entire list. Instead, you can grab the beginning of the array and then flip it to the other half.
 
 ## Part 1
 I used the same methods from class that were used during the labs (add numbers URL one) and changed one of the methods to add strings together using StringBuilder and append. It will try to locate the term "/add-message" in the URL, if it doesn't find any strings after it will just return the "404 Not Found!" as an error message. If the /add-message is found in the URL with the strings following it will update "Stringer" by appending the words. Lastly, it will return Stringer as a response and appear on the page.
