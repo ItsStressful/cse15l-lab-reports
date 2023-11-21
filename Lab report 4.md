@@ -31,7 +31,7 @@
 ![Image](Screenshot 2023-11-20 at 3.05.22 PM.png)
 
 ## Step 7: Working in Command Mode
-**While I was in Vim I checked to see what I needed to fix by scrolling using `<j>` in order to go down. After I located the need to change the code line that read** > index1 += 1; **I proceeded to change it by hovering over the "1" (in "index1") then pressed `<x>` to delete the one then pressed `<i>` in order to enter insert mode where I would replace it will the correct number `<2>`. Finally, I made sure I exited insert mode by pressing `<esc>` followed by exiting and saving by typing `:wq` or rather `<:> <w> <q>`**
+**While I was in Vim I checked to see what I needed to fix by scrolling using `<j>` in order to go down. After I located the need to change the code line that read** _index1 += 1_; **I proceeded to change it by hovering over the "1" (in "index1") then pressed `<x>` to delete the one then pressed `<i>` in order to enter insert mode where I would replace it will the correct number `<2>`. Finally, I made sure I exited insert mode by pressing `<esc>` followed by exiting and saving by typing `:wq` or rather `<:> <w> <q>`**
 
 ![Image](Screenshot 2023-11-20 at 3.54.34 PM.png)
 ![Image](Screenshot 2023-11-20 at 3.54.52 PM.png)
