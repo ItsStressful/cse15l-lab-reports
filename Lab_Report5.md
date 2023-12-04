@@ -25,6 +25,8 @@ I used 2 files and a java single java program along side the bash script. I put 
 ![Image](283E2EC1-791C-4B97-A35B-D815A69FB015.jpeg)
 
 *(Image of the bash script I used)*
+
+
 ![Image](3772E204-A103-49C4-97E7-C7AD72F09BEA.jpeg)
 
 I made the edittes to the line 10 from the java program, I changed the header from '<=' to only '<' which removed the error message and printed out the desired output:
