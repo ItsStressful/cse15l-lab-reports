@@ -7,7 +7,7 @@
 
 
 ![Image](Untitled.png)
-!Image(9331C307-2C6F-4FEE-882C-4EAE50926219.jpeg)
+![Image](9331C307-2C6F-4FEE-882C-4EAE50926219.jpeg)
 
 TA Response:
 > From the information that I can see, I noticed that your code is producing some runtime errors. This is the reason why you're getting the an IndexOutOfBounds Exception error. This issue might me caused because of the line 10 code. Please try to checkline 10 and see if thats whats causing the error. 
