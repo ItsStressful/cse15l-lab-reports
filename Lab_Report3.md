@@ -2,23 +2,23 @@
 
 ## Part 1: Bugs
 
-Failed: `@Test
+Failed: @Test
 public void testReverseInPlace2(){
   int[] input={1,2,3,4};
   ArrayExamples.reverseInPlace(input);
   assertArrayEquals(new int[]{4,3,2,1}, input);
 }
-`
+
 
 The expected output for the array was {4,3,2,1} but instead, it was changed to the array {4,3,3,4}.
 
-Didn't Fail: `@Test
+Didn't Fail: @Test
 public void testReverseInPlace() {
   int[] input1 = { 3 };
   ArrayExamples.reverseInPlace(input1);
   assertArrayEquals(new int[]{ 3 }, input1);
 }
-`
+
 
 The symptom:![Image](Screenshot 2023-11-19 at 6.38.26 PM.png)
 Code before:
